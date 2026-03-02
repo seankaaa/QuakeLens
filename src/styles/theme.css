@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap");
+
+:root {
+  --font-display: "Space Grotesk", "Segoe UI", sans-serif;
+  --font-mono: "IBM Plex Mono", "Menlo", monospace;
+
+  --bg-main: radial-gradient(circle at 15% 10%, #dbeafe 0%, #f8fafc 46%, #ecfeff 100%);
+  --bg-panel: rgba(255, 255, 255, 0.78);
+  --bg-panel-strong: rgba(255, 255, 255, 0.92);
+  --bg-card: rgba(248, 250, 252, 0.8);
+
+  --text-main: #0f172a;
+  --text-soft: #334155;
+  --text-muted: #64748b;
+
+  --line-soft: rgba(148, 163, 184, 0.35);
+  --line-strong: rgba(56, 189, 248, 0.4);
+
+  --accent: #0284c7;
+  --accent-2: #0ea5e9;
+  --danger: #dc2626;
+  --success: #16a34a;
+
+  --shadow-soft: 0 14px 34px rgba(14, 116, 144, 0.14);
+  --shadow-strong: 0 16px 34px rgba(15, 23, 42, 0.18);
+
+  --radius-lg: 18px;
+  --radius-md: 12px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  width: 100%;
+  min-height: 100%;
+}
+
+body {
+  font-family: var(--font-display);
+  background: var(--bg-main);
+  color: var(--text-main);
+}
+
+a {
+  color: var(--accent);
+}
+
+button,
+input,
+select {
+  font-family: var(--font-display);
+}
+
+code {
+  font-family: var(--font-mono);
+}
